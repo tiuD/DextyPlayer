@@ -9,27 +9,27 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
+        f"""**Ei eu sou {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+Posso tocar música na chamada de voz do seu grupo. Desenvolvido por [Tio Dexty](https://t.me/TioDexty).
 
-Add me to your group and play music freely!**
+Adicione-me ao seu grupo e toque música de graça!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/Infinity-Bots/GroupMusicPlayerBot")
+                        "🛠 Criador", url="https://t.me/TioDexty")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "💬 Group", url="https://t.me/TheRealVibes"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "🔊 Channel", url="https://t.me/DextyPlayer"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "➕ Adicionar ao seu grupo ➕", url="https://t.me/DextyPlayerbot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "🔊 Channel", url="https://t.me/DextyPlayer")
                 ]
             ]
         )
